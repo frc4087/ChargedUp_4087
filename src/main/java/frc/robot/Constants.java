@@ -78,9 +78,9 @@ public final static int TURR = 6; //labeled on spark, well not anymore since we 
 
 //PID
 public final static double  kElevatorP = 0.03,
-                            kElevatorI = 0.1,
-                            kElevatorD = 0.1,
-                            kElevatorFF = 0.1,
+                            kElevatorI = 0.0,
+                            kElevatorD = 0.0,
+                            kElevatorFF = 0.0,
                             kElevatorIZ = 0.0;
 
 public final static double turretPosConFac = ((1/70.0)*360); //accounts for gearing
